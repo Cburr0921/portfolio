@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+header {
+    width: 100%;
+    background-color: white;
+    border-bottom: 1px solid rgb(175, 175, 175);
+    overflow: auto;
+}
+h1  {
+    color:white;
+}
+.title{
+    background-color: rgb(54, 173, 161);
+    padding: 10px 20px;
+    float: left;
+    margin-left: 10%;
+}
+nav{
+    float: right;
+    padding: 10px 20px;
+    margin-right: 10%;
+}
+nav a{
+    color: rgb(175, 175, 175);
+    padding: 5px;
+    text-decoration: none;
+}
+nav a:hover{
+    color: rgb(54, 173, 161);
+}
+main{
+    background-color: gray;
+    background: url(../images/y-so-serious-white.png) repeat;
+    padding: 5% 10%;
+    overflow: auto;
+    min-height: 100%;
+
+
+    /* Equal to height of footer */
+    /* But also accounting for potential margin-bottom of last child */
+    margin-bottom: -50px;
+  
+}
+#main-content,
+#connect{
+    background-color: white;
+    border-radius: 2%;
+    float: left;
+    padding: 10px;
+}
+#main-content{
+    width: 60%;
+    margin-right: 5%;
+
+}
+.sub-title{
+    border-bottom: 1px solid rgb(175, 175, 175);
+ color: rgb(54, 173, 161);
+ padding: 5% 0;
+}
+.content-container{
+    padding: 5% 0;
+}
+.content-container img{
+    float: left;
+}
+#main-content .content-container img{
+    margin-right: 10px;
+}
+#connect .content-container img{
+    width: 75px;
+    height: 75px;
+
+}
+footer{
+    text-align: center;
+    background-color: rgb(117, 115, 115);
+    color:white;
+    border-top:4px solid rgb(54, 173, 161);
+    padding: 20px 0;
+}
